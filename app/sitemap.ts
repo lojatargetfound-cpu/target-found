@@ -14,7 +14,7 @@ export default async function sitemap():
     (products || []).map(
       (product) => ({
         url:
-          `https://seudominio.com/product/${product.id}`,
+          `https://target-found-z1tu.vercel.app/product/${product.id}`,
 
         lastModified:
           new Date(),
@@ -29,7 +29,7 @@ export default async function sitemap():
   return [
 
     {
-      url: 'https://seudominio.com',
+      url: 'https://target-found-z1tu.vercel.app',
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,
